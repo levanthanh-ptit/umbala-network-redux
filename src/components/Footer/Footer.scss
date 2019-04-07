@@ -1,0 +1,41 @@
+.Footer{
+    &__main-container{
+        display: flex;
+        height: 300px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background: rgba(51, 51, 102, 0.3);
+    };
+    &__title{
+        color: white;
+        font-weight: 400;
+        font-size: 1.2em;
+    };
+    &__Linked_icons{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        &__icon{
+            display: block;
+            height: 2.4rem;
+            width: 2.4rem;
+            font-size: 1.5rem;
+            color: white;
+            border-radius: 1.2rem;
+            border: 1px solid white;
+            margin: 0 15px;
+            transition: 0.2s;
+            &:hover{
+                transform: translateY(-6px);
+                background: rgba(150, 150, 150, 0.3);
+            }
+            & i{
+                margin: auto;
+               
+            }
+        }
+    }
+    
+}
